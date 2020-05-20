@@ -20,13 +20,21 @@ user_num = gets.chomp.to_i
 word_array = user_word.split("")
 
 #This method will check every letter in the new array we created.
-word_array.each{|l|
-  #Here it finds the index number for every letter.
-  index = alphabet_list.find_index(l)
-  #Icrimenting the actual index number with the number the user provided us.
-  cipher_index = index + user_num
-  #Writing the letters again with the new index we have.
-  cipher_word = alphabet_list[cipher_index]
-  #Printing the new letters.
-  print cipher_word
+word_array.each{|letter|
+  #The if statment checks if the word have letter Z
+   if letter == "Z"
+    #If there is letter Z then it will change the index back to 0
+    #Then continue on changing the letters.
+    index = 0
+    cipher_index = index + user_num
+    cipher_word = alphabet_list[cipher_index]
+    print cipher_word
+    #If the word does not have Z then it will continue changing the letters 
+   else
+    index = alphabet_list.find_index(letter)
+    cipher_index = index + user_num
+    cipher_word = alphabet_list[cipher_index]
+    print cipher_word
+   end
+    
 }
