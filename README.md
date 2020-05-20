@@ -5,19 +5,19 @@ The app i created as an assignment for The Odin Project course for Ruby.
 LINK to the Odin Project : https://www.theodinproject.com/tracks
 LINK to the Assignment : https://www.theodinproject.com/lessons/caesar-cipher
 
-**********************************\_\_\_\_********************************** :
+****************\*\*****************\_\_\_\_****************\*\***************** :
 
 How to Run the App :
 
 1. You need to Clone this Repo into your local machine.
 2. You nedd to have instlled Ruby on your machine
-3. After you intalled on your machine you can simply write this command in the Terminal
+3. After you intalled Ruby on your machine you can simply write this command in the Terminal
 
 ruby main.rb
 
 Then the app will start Running.
 
-************************************\_************************************ :
+****************\*\*\*\*****************\_****************\*\*\*\***************** :
 
 About the app itself :
 
